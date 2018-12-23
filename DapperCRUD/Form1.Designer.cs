@@ -69,7 +69,7 @@
             this.btnSave.Location = new System.Drawing.Point(17, 217);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 55);
-            this.btnSave.TabIndex = 2;
+            this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -88,7 +88,7 @@
             this.txtMobile.Location = new System.Drawing.Point(83, 109);
             this.txtMobile.Name = "txtMobile";
             this.txtMobile.Size = new System.Drawing.Size(137, 24);
-            this.txtMobile.TabIndex = 5;
+            this.txtMobile.TabIndex = 2;
             // 
             // label2
             // 
@@ -103,10 +103,11 @@
             // txtAddress
             // 
             this.txtAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(83, 162);
+            this.txtAddress.Location = new System.Drawing.Point(83, 158);
+            this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(137, 24);
-            this.txtAddress.TabIndex = 7;
+            this.txtAddress.Size = new System.Drawing.Size(137, 42);
+            this.txtAddress.TabIndex = 3;
             // 
             // label3
             // 
@@ -163,7 +164,7 @@
             this.txtSearch.Location = new System.Drawing.Point(244, 19);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(137, 24);
-            this.txtSearch.TabIndex = 10;
+            this.txtSearch.TabIndex = 12;
             // 
             // btnSearch
             // 
@@ -179,9 +180,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(765, 450);
+            this.ClientSize = new System.Drawing.Size(571, 315);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee Contact Book";
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();
             this.panel1.ResumeLayout(false);
